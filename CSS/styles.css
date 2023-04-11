@@ -162,3 +162,36 @@ header{
     margin-bottom: .5rem;
     display: block;
 }
+
+.boton{
+    background-color: var(--PrimariOscuro);
+    color: var(--negro);
+    font-family: var(--fuentePrincipal);
+    padding: 1rem 3rem 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 70%;
+    text-align: center;
+    border: none;
+}
+.boton:hover{
+    cursor: pointer;
+}
+.w-100{
+    width: 100%;
+}
+@media (min-width: 768px){
+    .w-100{
+       width: auto;
+    }
+}
+.flex{
+    display: flex;
+}
+.alinear-derecha{
+    justify-content: flex-end;
+}
