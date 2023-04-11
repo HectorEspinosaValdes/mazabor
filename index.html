@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Letras-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <!--Normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--Google Fonts tipo de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <!--Hoja de estilo-->
+    <link rel="stylesheet" href="CSS/styles.css">
+    
+    <title>Mazabor</title>
+</head>
+<body>
+
+    <header>
+        <img class="header__logo" src="img/LogoMazabor2.png" alt="logo">
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--resaltar" href="index.html">INICIO</a>
+        <a class="navegacion__enlace navegacion__enlace--resaltar" href="index.html">TIENDA</a>
+        <a class="navegacion__enlace navegacion__enlace--resaltar" href="nosotros.html">NOSOTROS</a>
+    </nav>
+
+    <section class="portada">
+        <div class="portada_degradado"></div>
+    </section>
+
+    <section class ="contenedor sombra">
+        <h2 >CONTACTO</h2>
+        <form class="formulario">
+            <fieldset>
+                
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input  class="text-input" type="text" placeholder="Nombre">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input  class="text-input" type="tel" placeholder="Teléfono">
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input  class="text-input" type="email" placeholder="Email">
+                    </div>
+
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea class="text-input"></textarea>
+                    </div>
+                </div>
+
+                <div class="flex alinear-derecha">
+                    <input class="boton w-100" type="submit"  value="Enviar">
+                </div><!--Contenedor-campos-->
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="footer sombra">
+        <p>Derechos reservados Mazabor</p> 
+    </footer>
+    
+</body>
+</html>
