@@ -194,3 +194,22 @@ header{
 .alinear-derecha{
     justify-content: flex-end;
 }
+.division{
+    display: grid;
+    margin: 2rem;
+    margin-top: 1rem;
+}
+.division-texto{
+    color: var(--negro);
+}
+@media (min-width: 768px){
+    .division{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        margin: 5rem;
+        margin-top: 5rem;
+    } 
+    .division-vision{
+        grid-column: 1/3;
+    }
+}
